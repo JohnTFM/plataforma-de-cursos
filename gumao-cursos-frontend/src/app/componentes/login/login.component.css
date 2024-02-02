@@ -1,0 +1,167 @@
+.login-container{
+  background: #170906;
+  width: 481px;
+  height: 617px;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+.input-login-container input {
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background: #E7EAED;
+  border: none;
+  outline: 2px solid #170906;
+  transition: 0.15s linear;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+
+
+}
+.input-login-container input:focus{
+  outline: 3px solid #BF5652;
+
+}
+.input-login-container span{
+  display: flex;
+  width: 81px;
+  height: 42px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #E7EAED;
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.login-agrupar-icone{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.login-span{
+  display: flex;
+  width: 129px;
+  height: 42px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #E7EAED;
+  text-align: center;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.label-password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.label-password svg{
+  position: relative;
+  top: 53px;
+  right: 12px;
+
+}
+
+.botao-continue{
+  cursor: pointer;
+  width: 194px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #BF5652;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  outline: none;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.botao-continue:focus{
+  outline:1px solid white;
+}
+.mensagem-informativa-login{
+  color: #E7EAED;
+  text-align: center;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mensagem-informativa-login span{
+  color: #FF9490;
+  cursor: pointer;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+@media(max-width: 500px){
+
+  .login-container{
+    width: 80vw;
+    height: 450px;
+  }
+  .input-login-container input{
+    width: 70vw;
+    height: 31px;
+    padding-left: 10px;
+    font-size: 15px;
+
+  }
+  .input-login-container input:focus{
+    outline: 2px solid #BF5652;
+
+  }
+  .input-login-container span{
+    font-size: 18px;
+  }
+
+  .botao-continue{
+    width: 115px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  .mensagem-informativa-login{
+    font-size: 10px;
+  }
+  .mensagem-informativa-login span{
+    font-size:10px ;
+  }
+  .login-span{
+    font-size: 25px;
+  }
+.label-password svg{
+  top: 45px;
+}
+
+}
